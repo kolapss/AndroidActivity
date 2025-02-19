@@ -1,8 +1,8 @@
 ### Запуск приложения 
 
-2025-02-19 21:09:28.087  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onCreate called
-2025-02-19 21:09:28.242  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStart called
-2025-02-19 21:09:28.249  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onResume called
+2025-02-19 21:09:28.087  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onCreate called  
+2025-02-19 21:09:28.242  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStart called  
+2025-02-19 21:09:28.249  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onResume called  
 
 - **`onCreate()`** вызывается первым, так как Activity нужно сначала **создать**.
 - **`onStart()`** вызывается после, потому что Activity теперь **готова к отображению**.
@@ -10,14 +10,14 @@
 
 ### Поворот экрана
 
-2025-02-19 21:11:37.063  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onPause called
-2025-02-19 21:11:37.079  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStop called
-2025-02-19 21:11:37.087  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onSaveInstanceState called
-2025-02-19 21:11:37.132  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onDestroy called
-2025-02-19 21:11:37.192  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onCreate called
-2025-02-19 21:11:37.235  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStart called
-2025-02-19 21:11:37.238  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onRestoreInstanceState called
-2025-02-19 21:11:37.244  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onResume called
+2025-02-19 21:11:37.063  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onPause called  
+2025-02-19 21:11:37.079  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStop called  
+2025-02-19 21:11:37.087  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onSaveInstanceState called  
+2025-02-19 21:11:37.132  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onDestroy called  
+2025-02-19 21:11:37.192  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onCreate called  
+2025-02-19 21:11:37.235  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStart called  
+2025-02-19 21:11:37.238  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onRestoreInstanceState called  
+2025-02-19 21:11:37.244  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onResume called  
 
 Когда происходит поворот экрана, Activity уничтожается и пересоздаётся. Это нужно, чтобы система могла подстроиться под новую ориентацию (например, изменить расположение элементов на экране).
 
@@ -50,9 +50,9 @@
 
 ### Свернуть приложение
 
-2025-02-19 21:13:43.622  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onPause called
-2025-02-19 21:13:44.423  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStop called
-2025-02-19 21:13:44.423  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onSaveInstanceState called
+2025-02-19 21:13:43.622  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onPause called  
+2025-02-19 21:13:44.423  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStop called  
+2025-02-19 21:13:44.423  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onSaveInstanceState called  
 
 В отличие от поворота экрана, сворачивание приложения не уничтожает Activity. Android оставляет её в памяти, чтобы быстро восстановить при возврате.
 
@@ -62,9 +62,9 @@
 
 ### Развернуть приложение 
 
-2025-02-19 21:15:11.425  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onRestart called
-2025-02-19 21:15:11.425  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStart called
-2025-02-19 21:15:11.426  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onResume called
+2025-02-19 21:15:11.425  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onRestart called  
+2025-02-19 21:15:11.425  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onStart called  
+2025-02-19 21:15:11.426  3269-3269  MainActivityLifecycle   com.example.businesscard             D  onResume called  
 
 - **`onRestart()`** вызывается, когда приложение возвращается из фона. Это позволяет подготовить `Activity` перед её видимостью.
 - **`onStart()`** вызывается после, когда `Activity` становится видимой, но ещё не активной.
@@ -72,10 +72,10 @@
 
 ### Закрыть приложение
 
-2025-02-19 21:16:43.409  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onPause called
-2025-02-19 21:16:43.418  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onStop called
-2025-02-19 21:16:43.420  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onSaveInstanceState called
-2025-02-19 21:16:43.444  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onDestroy called
+2025-02-19 21:16:43.409  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onPause called  
+2025-02-19 21:16:43.418  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onStop called  
+2025-02-19 21:16:43.420  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onSaveInstanceState called  
+2025-02-19 21:16:43.444  4198-4198  MainActivityLifecycle   com.example.businesscard             D  onDestroy called  
 
 - **`onPause()`** — приложение теряет фокус и переходит в фоновое состояние, но всё ещё не уничтожено.
 - **`onStop()`** — приложение больше не видно на экране, оно уходит в фоновый режим.
@@ -84,8 +84,8 @@
 
 ### Вызов метода finish
 
-2025-02-19 21:18:16.831  4294-4294  MainActivityLifecycle   com.example.businesscard             D  onCreate called
-2025-02-19 21:18:17.655  4294-4294  MainActivityLifecycle   com.example.businesscard             D  onDestroy called
+2025-02-19 21:18:16.831  4294-4294  MainActivityLifecycle   com.example.businesscard             D  onCreate called  
+2025-02-19 21:18:17.655  4294-4294  MainActivityLifecycle   com.example.businesscard             D  onDestroy called  
 
 - **`onCreate()`** вызывается, когда создаётся новый экземпляр `Activity`. 
     
